@@ -12,5 +12,5 @@ provider "azurerm" {
   features {}
 }
 module "module"{
-    source = "../module"
+    source = "./module"
 }
